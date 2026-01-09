@@ -76,8 +76,10 @@ Project_CCP/
  └── Churn.csv
 
 ##Status
+
 Project is completed end-to-end including EDA, model training, model evaluation and final insights.
 
 ##Author
+
 Sai Teja
 Aspiring Data Scientist
