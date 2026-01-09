@@ -1,9 +1,11 @@
 ##Customer Churn Prediction – Data Science Project
 
 ##About the Project
+
 This project is about predicting customer churn for a telecom company. Churn means customers who are leaving the service. The purpose of this project is to understand which type of customers are more likely to churn, and to build a machine learning model that can predict churn.
 
 ##Dataset
+
 I used the Telco Customer Churn dataset which contains 7,043 rows and multiple columns like customer demographics, contract type, billing amount, tenure, and services. The target column is “Churn” which has Yes/No values.
 
 ##Steps I Completed
@@ -29,4 +31,14 @@ I compared both models based on accuracy, recall and ROC-AUC.
 * Two year contract customers rarely churn.
 * Extra security services reduce churn risk.
 
-* 
+##Model Results
+
+Logistic Regression:
+Accuracy: around 81%
+Churn recall: around 57%
+ROC-AUC: around 0.84
+
+Random Forest:
+Accuracy: around 80%
+Churn recall: around 50%
+ROC-AUC: around 0.83
