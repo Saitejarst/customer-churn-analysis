@@ -42,3 +42,42 @@ Random Forest:
 Accuracy: around 80%
 Churn recall: around 50%
 ROC-AUC: around 0.83
+
+##Final Model Selection
+
+Logistic Regression worked better because it had better recall for churn customers and a better ROC-AUC score. It is also easier to interpret compared to Random Forest.
+
+##Business Suggestions
+
+Based on the results, the company can reduce churn by:
+1. Encouraging month-to-month customers to switch to long-term contracts
+2. Giving discounts to high billing customers
+3. Focusing on new customers with low tenure
+4. Offering bundled services like tech support and security
+
+##Tools Used
+
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Scikit-learn
+Jupyter Notebook
+
+##Project Structure
+
+Project_CCP/
+ ├── 01_data_understanding.ipynb
+ ├── 02_data_cleaning.ipynb
+ ├── 03_eda.ipynb
+ ├── 04_feature_engineering.ipynb
+ ├── 05_model_building.ipynb
+ └── Churn.csv
+
+##Status
+Project is completed end-to-end including EDA, model training, model evaluation and final insights.
+
+##Author
+Sai Teja
+Aspiring Data Scientist
